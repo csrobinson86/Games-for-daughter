@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 5em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+}
+
+li.open .letter {
+    display: none;
+}
+
+li .sentence {
+    display: none;
+}
+
+li.open .sentence {
+    font-size: 0.35em;
+    display: block;
+    align-self: flex-end;
+    margin: 0 0 10px 0;
+}
+
+li.open.img-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+[data-letter="a"].open { background-image: url('a.webp'); }
+[data-letter="b"].open { background-image: url('b.webp'); }
+[data-letter="c"].open { background-image: url('c.webp'); }
+[data-letter="d"].open { background-image: url('d.webp'); }
+[data-letter="e"].open { background-image: url('e.webp'); }
+[data-letter="f"].open { background-image: url('f.webp'); }
+[data-letter="g"].open { background-image: url('g.webp'); }
+[data-letter="h"].open { background-image: url('h.webp'); }
+[data-letter="i"].open { background-image: url('i.webp'); }
+[data-letter="j"].open { background-image: url('j.webp'); }
+[data-letter="k"].open { background-image: url('k.webp'); }
+[data-letter="l"].open { background-image: url('l.webp'); }
+[data-letter="m"].open { background-image: url('m.webp'); }
+[data-letter="n"].open { background-image: url('n.webp'); }
+[data-letter="o"].open { background-image: url('o.webp'); }
+[data-letter="p"].open { background-image: url('p.webp'); }
+[data-letter="q"].open { background-image: url('q.webp'); }
+[data-letter="r"].open { background-image: url('r.webp'); }
+[data-letter="s"].open { background-image: url('s.webp'); }
+[data-letter="t"].open { background-image: url('t.webp'); }
+[data-letter="u"].open { background-image: url('u.webp'); }
+[data-letter="v"].open { background-image: url('v.webp'); }
+[data-letter="w"].open { background-image: url('w.webp'); }
+[data-letter="x"].open { background-image: url('x.webp'); }
+[data-letter="y"].open { background-image: url('y.webp'); }
+[data-letter="z"].open { background-image: url('z.webp'); }
